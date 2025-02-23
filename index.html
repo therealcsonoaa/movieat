@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Night</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+          
+        <h1>Would you like to watch a movie?</h1>
+        <button onclick="showTimes()">Yes</button>
+        
+        <div id="times" class="hidden">
+            <h2>Select a time:</h2>
+            <button onclick="selectTime('5:00 PM')">5:00 PM</button>
+            <button onclick="selectTime('7:00 PM')">7:00 PM</button>
+            <button onclick="selectTime('9:00 PM')">9:00 PM</button>
+            <button onclick="selectTime('11:00 PM')">11:00 PM</button>
+        </div>
+
+        <div id="linkSection" class="hidden">
+            <p>Copy this link and paste it into Zoom:</p>
+            <input type="text" id="meetingLink" readonly>
+            <button onclick="copyLink()">Copy Link</button>
+            <p id="reminder"></p>
+        </div>
+
+        <a href="movie.html" class="movie-link">Go to Movie Page 🎬</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

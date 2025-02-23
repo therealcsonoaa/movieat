@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #ffd1dc; /* Light pink background */
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+h1::before {
+    content: "🍿 🎬";
+    display: block;
+    font-size: 40px;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff6384;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e05575;
+}
+
+.hidden {
+    display: none;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ff6384;
+    border-radius: 5px;
+}
+
+.movie-icon {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.movie-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff6384;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.movie-link:hover {
+    background-color: #e05575;
+}
