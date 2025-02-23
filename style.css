@@ -1,0 +1,74 @@
+body {
+    background-color: lightpink;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+button {
+    background-color: #ff6384;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff476f;
+}
+
+.hidden {
+    display: none;
+}
+
+.movie-selection {
+    margin-top: 20px;
+}
+
+.movie-image {
+    width: 200px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.2s;
+    margin: 10px;
+}
+
+.movie-image:hover {
+    transform: scale(1.1);
+}
+
+#loveMessage {
+    font-size: 18px;
+    color: #ff6384;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.chat-container {
+    border: 2px solid #ff6384;
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+    border-radius: 5px;
+    background: white;
+}
+
+#chatInput {
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#chatBox {
+    max-height: 200px;
+    overflow-y: auto;
+    text-align: left;
+    padding: 10px;
+    background: #fff0f5;
+}

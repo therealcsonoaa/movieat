@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Night</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="romantic_music.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="container">
+        <h1>Would you like to watch a movie?</h1>
+        <button onclick="showMovies()">Yes</button>
+
+        <div id="moviePopup" class="hidden">
+            <h2>Select a Movie 🎬</h2>
+            <div class="movie-selection">
+                <img src="https://m.media-amazon.com/images/M/MV5BMjAxMTMzNTI5Ml5BMl5BanBnXkFtZTcwNDAwMTQ2NA@@._V1_.jpg" 
+                     alt="Out of Time" 
+                     class="movie-image" 
+                     onclick="watchMovie('yk9mZAJY9g0')">
+
+                <img src="https://m.media-amazon.com/images/M/MV5BMTc5MTE4MzY2N15BMl5BanBnXkFtZTcwNjMwNDc3Ng@@._V1_.jpg" 
+                     alt="Man on a Ledge" 
+                     class="movie-image" 
+                     onclick="watchMovie('T0kXMlBrR5A')">
+
+                <img src="https://m.media-amazon.com/images/M/MV5BYWRkZWE3M2YtMjI0MC00ODk2LThhYTktN2ZmM2RiMTJiZGYwXkEyXkFqcGc@._V1_.jpg" 
+                     alt="Osmosis Jones" 
+                     class="movie-image" 
+                     onclick="watchMovie('c4Cj4YBVxGw')">
+
+                <img src="https://tasithoughts.com/wp-content/uploads/2011/02/i-am-number-four-fan-poster-dianna-agron-18139720-598-856.jpg" 
+                     alt="I Am Number Four" 
+                     class="movie-image" 
+                     onclick="watchMovie('zi-qA59KeHA')">
+            </div>
+            <button onclick="closeMovies()">Close</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <p>Ready to turn off the lights?</p>
+        <button onclick="goToDare()">Yes</button>
+        <button onclick="sayOk()">No</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

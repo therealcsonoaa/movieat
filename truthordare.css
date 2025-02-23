@@ -1,0 +1,55 @@
+/* Truth or Dare Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #FFC0CB; /* Light Pink */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #ff4081;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+button {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #e60073;
+}
+
+#question-box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 22px;
+    color: #333;
+}
+
+.back-btn {
+    display: block;
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff4081;
+}
